@@ -1,0 +1,33 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #444; /* Dark gray container */
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+  }
+  
+  h1 {
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  
