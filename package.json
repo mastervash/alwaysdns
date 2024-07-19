@@ -1,7 +1,0 @@
-{
-    "name": "yes-page",
-    "version": "1.0.0",
-    "scripts": {
-      "start": "http-server"
-    }
-  }
