@@ -1,10 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Start background music
-    const backgroundMusic = document.getElementById('background-music');
-    backgroundMusic.play().catch(error => {
-        console.error("Error playing audio:", error);
-    });
-
     // Initialize particles.js
     particlesJS('particles-js', {
         "particles": {
@@ -62,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             "move": {
                 "enable": true,
-                "speed": 6,
+                "speed": 4.8, 
                 "direction": "none",
                 "random": false,
                 "straight": false,
